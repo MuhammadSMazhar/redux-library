@@ -3,7 +3,7 @@ import { decreament, increament } from "../action/action";
 const initialState = {
     counter : 0
 }
-export function Reducer(state = initialState.counter , action){
+export function Reducer(state = initialState , action){
     switch(action.type){
         case increament:
             return {

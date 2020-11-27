@@ -8,10 +8,12 @@ export const CounterInput=()=>{
         <div>
             <button onClick={()=>dispatch({
                 type : increament,
-            })}>+</button>
+            })
+            }>+</button>
             <button onClick={()=>dispatch({
                 type : decreament,
-            })}>-</button>
+            })
+            }>-</button>
         </div>
     )
 }
